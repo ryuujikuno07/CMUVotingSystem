@@ -1,0 +1,102 @@
+@media (max-width: 767px) {
+    .text-center-xs {
+        text-align: center;
+    }
+}
+@media (min-width: 768px) {
+    .img-responsive-sm {
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+}
+@media (max-width: 767px) {
+    .no-mg-t-xs {
+        margin-top: 0 !important;
+    }
+}
+.no-mg-t {
+    margin-top: 0 !important;
+}
+.no-mg-b {
+    margin-bottom: 0 !important;
+}
+.center-block {
+    margin-left: auto;
+    margin-right: auto;
+}
+#stats-chart1, #stats-chart2, #stats-chart3, #stats-chart7, #stats-chart8 {
+    height: 200px;
+}
+.color-settings {
+    width: 180px;
+}
+.color-settings .color-title {
+    font-weight: bold;
+    padding-left: 10px;
+}
+.wysihtml5-sandbox {
+    box-sizing: border-box;
+}
+.help-inline {
+    font-size: 12px;
+    color: red;
+    font-style: italic;
+}
+.modal-static {
+    position: fixed;
+    top: 50% !important;
+    left: 50% !important;
+    margin-top: -100px;
+    margin-left: -100px;
+    overflow: visible !important;
+}
+.modal-static, .modal-static .modal-dialog, .modal-static .modal-content {
+    width: 200px;
+    height: 200px;
+}
+.modal-static .modal-dialog, .modal-static .modal-content {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+.modal-static .modal-content .icon {} .active_term {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #0087b9;
+}
+/* Nav Announcements */
+
+.announcement-heading {
+    font-size: 50px;
+    margin: 0;
+}
+.announcement-text {
+    margin: 0;
+}
+.modal-lg {
+    width: 1000px !important;
+}
+.modal-header-danger {
+    color: #fff;
+    padding: 9px 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #d9534f;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+.modal-header-info {
+    color: #fff;
+    padding: 9px 15px;
+    border-bottom: 1px solid #eee;
+    background-color: #5bc0de;
+    -webkit-border-top-left-radius: 5px;
+    -webkit-border-top-right-radius: 5px;
+    -moz-border-radius-topleft: 5px;
+    -moz-border-radius-topright: 5px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
