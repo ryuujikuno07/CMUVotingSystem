@@ -1,9 +1,11 @@
 # CMUVotingSystem
 For Capstone Project II Revision ongoing.
 
- username | password |      IP
- 
- admin        admins      localhost
+For testing the app just login to this account.
+
+  username : admin     
+  password: admins   
+  IP: localhost
  
  
  Developer : Jim Santos 
