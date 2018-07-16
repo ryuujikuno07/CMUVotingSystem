@@ -1,10 +1,10 @@
-# CMUVotingSystem
-For Capstone Project II Revision ongoing.
+# City of Malabon University Election System
+For Capstone Project Revision ongoing.
 
 For testing the app just login to this account.
 
-  username : admin     
-  password: admins   
+  Username : admin     
+  Password: admins   
   IP: localhost
  
  
