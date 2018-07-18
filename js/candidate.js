@@ -328,3 +328,4 @@
 																$('#time').load('assets/time.php')
 															}, 1000);
 															});
+
