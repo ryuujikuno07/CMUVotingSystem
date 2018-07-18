@@ -1,6 +1,8 @@
-# City of Malabon University Election System  
-(PHP and JavaScript) 
-For Capstone Project Done and still developing.
+# City of Malabon University Election System    
+(PHP and JavaScript)   
+For Capstone Project Done and still developing.  
+
+---------------------------------------------------------------------------------
 
 For testing the Web Application just login to this account.
 
