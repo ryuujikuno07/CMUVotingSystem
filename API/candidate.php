@@ -1,6 +1,7 @@
 <?php
 
 function insert_candidate($data){
+	
 	require 'connection.php';
 	{
 		$newimage = $data[0]['candidate_Photo'];
@@ -39,6 +40,7 @@ function insert_candidate($data){
 
 
 function update_candidate($candidate_id,$data){
+
 	require 'connection.php';
 	{
 
@@ -87,6 +89,7 @@ function update_candidate($candidate_id,$data){
 }
 
 function delete_candidate($CandidateID){
+	
 	require 'connection.php';
 	{
 		if($stmt = $mysqli->prepare("DELETE FROM election_candidates WHERE CandidateID =?")){
@@ -101,6 +104,7 @@ function delete_candidate($CandidateID){
 }
 
 function select_all_candidate($TermID,$page){
+	
 	require 'connection.php';
 	{
 		$limit = 10;
@@ -159,8 +163,8 @@ function select_all_candidate($TermID,$page){
 }
 
 function get_candidate($candidate_id,$TermID){
-	require 'connection.php';
-	{
+	
+	require 'connection.php';{
 		$query ="SELECT C.LastName,C.FirstName,C.MiddleName,C.CandidateID,
 		    (SELECT PositionName FROM election_positions WHERE PositionID=C.PositionID LIMIT 1) AS Position,C.PositionID,
 		    (SELECT department_description FROM department_table WHERE department_id=C.CollegeID LIMIT 1) AS College,C.CollegeID,
@@ -201,7 +205,9 @@ function get_candidate($candidate_id,$TermID){
 		}
 	}
 }
+
 function search_candidate($value,$TermID,$page){
+	
 	require 'connection.php';
 	{
 
@@ -263,6 +269,7 @@ function search_candidate($value,$TermID,$page){
 }
 
 function upload_photo($data){
+	
 	require 'connection.php';
 	{
 		$newimage = $data[0]['photo'];
@@ -298,6 +305,7 @@ function upload_photo($data){
 
 
 function Print_Candidates($TermID){
+	
 	require 'connection.php';
 	{
 
@@ -332,6 +340,7 @@ function Print_Candidates($TermID){
 }
 
 function checkCandidate($StudentID,$TermID){
+	
 	require 'connection.php';
 	{
 		$query ="SELECT * FROM election_candidates WHERE StudentID = '$StudentID' AND TermID='$TermID' LIMIT 1;";
