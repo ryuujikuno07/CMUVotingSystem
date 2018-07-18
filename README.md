@@ -1,13 +1,23 @@
-# City of Malabon University Election System
-For Capstone Project Revision ongoing.
+# City of Malabon University Election System  
+(PHP and JavaScript) 
+For Capstone Project Done and still developing.
 
-For testing the app just login to this account.
+For testing the Web Application just login to this account.
 
-  Username : admin     
-  Password: admins   
-  IP: localhost
+  *Username : admin     
+  *Password: admins   
+  *IP: localhost
  
+----------------------------------------------------------------------------------
  
- Developer : Jim Santos 
+ Developer : Jim Santos   
  Email: yuujimsan07@gmail.com
  
+ ---------------------------------------------------------------------------------
+ 
+Thanks for my groupmates that contribute on this Project.    
+  
+*Shawn Michael Peñaflorida    
+*Rica Jane Bongcaras
+
+----------------------------------------------------------------------------------
